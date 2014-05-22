@@ -45,7 +45,7 @@
             Haigth = initialHaight;
         }
 
-
+        // Test can we submit this, or the peace of shit will annoy me. 
         public static Size GetRotatedSize(Size s, double angleOfTheFigureThatWillBeRotaed)
         {
             return new Size(
