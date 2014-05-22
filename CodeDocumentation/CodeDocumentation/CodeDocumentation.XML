@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodeDocumentation</name>
+    </assembly>
+    <members>
+        <member name="T:Telerik.ILS.Common.StringExtensions">
+            <summary>
+            Static class, extends String
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToMd5Hash(System.String)">
+            <summary>
+             Gets MD5 hash 
+            </summary>
+            <param name="input">String from which to take hash</param>
+            <returns>hexadecimal MD5 value as string</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)">
+            <summary>
+            Checks if string has boolean (true = true, ok, yes, 1, да)
+            </summary>
+            <param name="input">string that will be checked</param>
+            <returns>true if string contains (true, ok, yes, 1, да)</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)">
+            <summary>
+            Converts string to numeric value, type <see cref="T:System.Int16"/>
+            </summary>
+            <param name="input">string to be converted</param>
+            <returns>value of string in type short</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)">
+            <summary>
+            Converts string to numeric value, type Int32 <see cref="T:System.Int32"/>
+            </summary>
+            <param name="input">string to be converted</param>
+            <returns>value of string in type Int32</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)">
+            <summary>
+            Converts string to numeric value, type Int64 <see cref="T:System.Int64"/>
+            </summary>
+            <param name="input">string to be converted</param>
+            <returns>value of string in type int64 </returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)">
+            <summary>
+            Converts string to date time value, type DateTime <see cref="T:System.DateTime"/>
+            </summary>
+            <param name="input">string to be converted</param>
+            <returns>value of string in type DateTime</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            Makes first letter of string capital
+            </summary>
+            <param name="input">string to be capitalized</param>
+            <returns>string with first letter capital</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Searches for string in between other strings
+            </summary>
+            <param name="input">This instance.</param>
+            <param name="startString">The left delimiter of the result string.</param>
+            <param name="endString">The right delimiter of the result string.</param>
+            <param name="startFrom">The start position of the search.</param>
+            <returns>searched string or empty string.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+            <summary>
+            Convert cyrillic to latin characters
+            </summary>
+            <param name="input">string with cyrillic characters</param>
+            <returns>string with latin characters</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+            <summary>
+            Convert latin to cyrillic characters
+            </summary>
+            <param name="input">string with latin characters</param>
+            <returns>string with cyrillic characters</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            Converts invalid username to valid one
+            </summary>
+            <param name="input">username, type string</param>
+            <returns>valid username</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            Converts invalid file name to valid one
+            </summary>
+            <param name="input">file name, type string</param>
+            <returns>valid file name</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            Gets first characters from string
+            </summary>
+            <param name="input">string to manipulate</param>
+            <param name="charsCount">number of characters to be taken </param>
+            <returns>taken characters as string</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            Gets file extension from file name 
+            </summary>
+            <param name="fileName">whole name of the file</param>
+            <returns>extension name as string</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)">
+            <summary>
+            Get the content type of a file extension represented as a string
+            </summary>
+            <param name="fileExtension">string that represents file extension</param>
+            <returns>Returns the content type of file extension, or string with value "application/octet-stream"</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToByteArray(System.String)">
+            <summary>
+            Converts string to byte array
+            </summary>
+            <param name="input">string to be manipulated</param>
+            <returns>created byte array </returns>
+        </member>
+    </members>
+</doc>
