@@ -7,18 +7,26 @@
         private double width;
         private double heigth;
 
+        public Size(double initialWidth, double initialHaight)
+        {
+            this.Width = initialWidth;
+            this.Haigth = initialHaight;
+        }
+
         public double Width
         {
             get
             {
                 return this.width;
             }
+
             set
             {
                 if (value <= 0)
                 {
                     throw new ArgumentException("Width must have positive value");
                 }
+
                 this.width = value;
             }
         }
@@ -29,33 +37,26 @@
             {
                 return this.heigth;
             }
+
             set
             {
                 if (value <= 0)
                 {
                     throw new ArgumentException("Heigth must have positive value");
                 }
+
                 this.heigth = value;
             }
         }
 
-        public Size(double initialWidth, double initialHaight)
+        public static Size GetRotatedSize(Size currentFigureSize, double angleOfTheFigure)
         {
-            Width = initialWidth;
-            Haigth = initialHaight;
+            double width = Math.Abs(Math.Cos(angleOfTheFigure)) * currentFigureSize.width +
+                           Math.Abs(Math.Sin(angleOfTheFigure)) * currentFigureSize.heigth;
+            double height = Math.Abs(Math.Sin(angleOfTheFigure)) * currentFigureSize.width +
+                            Math.Abs(Math.Cos(angleOfTheFigure)) * currentFigureSize.heigth;
+            var rotatedFigure = new Size(width, height);
+            return rotatedFigure;
         }
-
-        // Test can we submit this, or the peace of shit will annoy me. 
-        public static Size GetRotatedSize(Size s, double angleOfTheFigureThatWillBeRotaed)
-        {
-            return new Size(
-              Math.Abs(Math.Cos(angleOfTheFigureThatWillBeRotaed)) * s.width +
-                Math.Abs(Math.Sin(angleOfTheFigureThatWillBeRotaed)) * s.heigth,
-              Math.Abs(Math.Sin(angleOfTheFigureThatWillBeRotaed)) * s.width +
-                Math.Abs(Math.Cos(angleOfTheFigureThatWillBeRotaed)) * s.heigth);
-        }
-
-
     }
-
 }
