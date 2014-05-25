@@ -1,58 +1,54 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace UsingVariables
+﻿namespace UsingVariables
 {
-    public class Somethin
+    public class VariableUsage
     {
-        public void PrintStatistics(double[] arr, int count)
+        public void PrintStatistics(double[] statisticData, int endSearchIndex)
         {
-            double max = 0;
-            double tmp =0;
+            double maxInData = 0;
 
-            for (var i = 0; i < count; i++)
+            for (var i = 0; i < endSearchIndex; i++)
             {
-                if (arr[i] > max)
+                if (statisticData[i] > maxInData)
                 {
-                    max = arr[i];
+                    maxInData = statisticData[i];
                 }
             }
-            PrintMax(max);
-            tmp = 0;
-            max = 0;
-            for (var i = 0; i < count; i++)
+
+            PrintMax(maxInData);
+            double minInData = 0;
+
+            for (var i = 0; i < endSearchIndex; i++)
             {
-                if (arr[i] < max)
+                if (statisticData[i] < minInData)
                 {
-                    max = arr[i];
+                    minInData = statisticData[i];
                 }
             }
-            PrintMin(max);
 
-            tmp = 0;
-            for (var i = 0; i < count; i++)
+            PrintMin(minInData);
+            double summedData = 0;
+
+            for (var i = 0; i < endSearchIndex; i++)
             {
-                tmp += arr[i];
+                summedData += statisticData[i];
             }
-            PrintAvg(tmp / count);
-        }
 
-        private void PrintMax(double max)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void PrintMin(double max)
-        {
-            throw new NotImplementedException();
+            PrintAvg(summedData / endSearchIndex);
         }
 
         private void PrintAvg(double d)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
+        }
+
+        private void PrintMin(double arrayMin)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void PrintMax(double arrayMax)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
