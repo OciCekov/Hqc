@@ -19,6 +19,7 @@
                     if (array[i] == expectedValue)
                     {
                         Console.WriteLine("Value Found");
+						break;
                     }
                 }
             }
