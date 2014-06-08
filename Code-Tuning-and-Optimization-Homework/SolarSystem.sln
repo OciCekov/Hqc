@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystem", "SolarSystem.csproj", "{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.AdvancedMathOperationsComparison", "AdvancedMathOperations\03.AdvancedMathOperationsComparison.csproj", "{972D5E52-5DB9-4B40-ACA1-89EA1687D216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BasicMathOperationsComparison", "BasicMathOperationsComparison\02.BasicMathOperationsComparison.csproj", "{9932F8B6-134D-43C5-A5A2-EEEE8E0AB8FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972D5E52-5DB9-4B40-ACA1-89EA1687D216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972D5E52-5DB9-4B40-ACA1-89EA1687D216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972D5E52-5DB9-4B40-ACA1-89EA1687D216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972D5E52-5DB9-4B40-ACA1-89EA1687D216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9932F8B6-134D-43C5-A5A2-EEEE8E0AB8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9932F8B6-134D-43C5-A5A2-EEEE8E0AB8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9932F8B6-134D-43C5-A5A2-EEEE8E0AB8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9932F8B6-134D-43C5-A5A2-EEEE8E0AB8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
