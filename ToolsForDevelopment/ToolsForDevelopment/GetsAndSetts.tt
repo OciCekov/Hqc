@@ -1,0 +1,13 @@
+﻿class T4TemplateResult
+{
+//Yes it is stupid, but.... I'm not a smart man
+<# for(int i = 1; i <= 5; i++) { #>
+	public int Item<#=i#> { get; set; }
+<# } #>
+}
+<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>

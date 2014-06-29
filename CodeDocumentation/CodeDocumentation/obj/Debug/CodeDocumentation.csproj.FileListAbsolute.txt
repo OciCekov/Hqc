@@ -1,1 +1,7 @@
 E:\HQC\MyHomeworks\CodeDocumentation\CodeDocumentation\bin\Debug\CodeDocumentation.exe.config
+E:\HQC\MyHomeworkS\CodeDocumentation\CodeDocumentation\obj\Debug\CodeDocumentation.csprojResolveAssemblyReference.cache
+E:\HQC\MyHomeworkS\CodeDocumentation\CodeDocumentation\bin\Debug\CodeDocumentation.exe
+E:\HQC\MyHomeworkS\CodeDocumentation\CodeDocumentation\bin\Debug\CodeDocumentation.pdb
+E:\HQC\MyHomeworkS\CodeDocumentation\CodeDocumentation\bin\Debug\CodeDocumentation.XML
+E:\HQC\MyHomeworkS\CodeDocumentation\CodeDocumentation\obj\Debug\CodeDocumentation.exe
+E:\HQC\MyHomeworkS\CodeDocumentation\CodeDocumentation\obj\Debug\CodeDocumentation.pdb

@@ -294,3 +294,17 @@
         }
     }
 }
+
+/// <summary>
+/// Class becouse it was behaving like an asshole(sorry if you are under 18)
+/// </summary>
+public class StartTheThing
+{
+    /// <summary>
+    /// This should start the thing
+    /// </summary>
+    public static void Main()
+    {
+
+    }
+}
